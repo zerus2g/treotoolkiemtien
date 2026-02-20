@@ -15,8 +15,8 @@ def run_flask():
 
 def start_bot():
     print("Khởi động Bot V5 trên luồng nền...")
-    # Tự động cài thư viện nếu thiếu trên cloud, nhưng render đã có requirements.txt
-    os.system("python autotyhub_v5.py")
+    # Thêm -u để tắt tính năng chặn Log của Python trên Máy chủ (Render)
+    os.system("python -u autotyhub_v5.py")
 
 if __name__ == '__main__':
     # 1. Chạy Bot ngầm trên một luồng khác
