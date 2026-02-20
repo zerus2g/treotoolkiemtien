@@ -1,0 +1,11 @@
+{
+    "mode": "ORACLE",
+    "oracle_post_crash": true,
+    "oracle_post_delay_s": 3,
+    "wait_max_energy": false,
+    "min_energy": 5,
+    "energy_wait_s": 20,
+    "adaptive_margin": true,
+    "margin_min": 20,
+    "margin_max": 500
+}
